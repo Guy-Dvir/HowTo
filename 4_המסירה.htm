@@ -1,0 +1,193 @@
+﻿<!doctype html>
+<html lang="he">
+<head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon" type="image/png" href="images/Favicon.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>האו TO | המסירה</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+
+    <!-- CSS -->
+    <!--Bootstrap 3 css file-->
+    <link href="Bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <!--Bootstrap non-responsive css file (just add class "non-responsive" to the body tag)-->
+    <link href="Bootstrap/css/bootstrap-non-responsive.css" rel="stylesheet" />
+    <!--Bootstrap fixes for hebrew (add class='rtl' to the body tag)-->
+    <link href="Bootstrap/css/bootstrap-rtl.css" rel="stylesheet" />
+    <!--Bootstrap them - for changing the shape and colors of bootstrap objects like buttons-->
+    <!--<link href="Bootstrap/css/bootstrap-theme.css" rel="stylesheet" />-->
+    <!--The only file you should right your css-->
+    <link href="Styles/myStyle.css" rel="stylesheet" />
+    <link href="Styles/fixedsticky.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!--alt Font-->
+    <link href='http://serve.fontsproject.com/css?family=Simple+CLM:400' rel='stylesheet' type='text/css'>
+
+
+    <!-- Scripts -->
+    <!--jQuery library-->
+    <script src="jScripts/jquery-1.10.2.min.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <!--Bootstrap library-->
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+    <script src="jScripts/myScript.js"></script>
+    <script src="jScripts/fixedsticky.js"></script>
+
+</head>
+
+<body class="rtl">
+    <div id="container" class="container-fluid">
+        <div class="row main_nav">
+            <div id="logo" class="container"><a href="HomePage.htm" tabindex="1"><img src="Images/Home_Sprite.png" alt="האו To - מידע מקיף על אימוץ גורי נחייה" /></a></div>
+            <nav id="nav" class="container navbar-default">
+                <ul class="nav nav-pills text-center">
+                    <li class="jumpTocontent"><button tabindex="1">דלג לתוכן הדף</button></li>
+                    <li id="menu2">
+                        <a href="2_מאיפה_מתחילים.htm">מאיפה מתחילים</a>
+                        <ul id="sub2" class="sub">
+                            <li><a href="2.1_הכר_את_התהליך.htm">הכירו את התהליך</a></li>
+                            <li><a href="2.2_הכנות_מקדימות.htm">הכנות מקדימות</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="3_גידול_הכלב.htm">גידול הכלב</a></li>
+                    <li id="menu4">
+                        <a href="4_המסירה.htm" class="activNav">המסירה</a>
+                        <ul id="sub4" class="sub">
+                            <li><a href="4.1_חיזוק.htm#stry1">חיזוק</a></li>
+                            <li><a href="under-constraction.htm">תמיכה</a></li>
+                            <li><a href="under-constraction.htm">הכנה</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="5_סיפורי _אימוץ.htm#stry1">סיפורי אימוץ</a></li>
+                    <li><a href="under-constraction.htm">טפסים</a></li>
+                    <li><a href="under-constraction.htm">דרכי תקשורת שימושיות</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="main_content" class="row">
+            <div class="container"><div id="edgesFeature"></div></div>
+            <div id="contentWrapper" class="container">
+                <ul class="breadcrumb">
+                    <li><a href="HomePage.htm">דף הבית</a></li>
+                    <li><a href="#">המסירה</a></li>
+                </ul>
+                <section>
+                    <h1>המסירה - כשהסיפוק עולה על העצב</h1>
+                    <br /><br /><br />
+                    <ul id="inner_mainButtons" class="row text-center">
+                        <li class="col-xs-4">
+                            <section class="pull-right">
+                                <h2><a id="btn1" class="bigButton" href="4.1_חיזוק.htm#stry1">חיזוק</a></h2>
+                                <p class="text-justify">
+                                    סיפורים מעוררי השראה של עיוורים, על הרגע בו קבלו את כלבם, והשינוי שחל בחייהם.
+                                </p>
+                            </section>
+                        </li>
+                        <li class="col-xs-4">
+                            <section>
+                                <h2><a id="btn2" class="bigButton" href="under-constraction.htm">תמיכה</a></h2>
+                                <p class="text-justify">
+                                    שיתוף חוויות ממקור ראשון של מאמצים, על התמודדות עם רגע המסירה.
+                                </p>
+                            </section>
+                        </li>
+                        <li class="col-xs-4">
+                            <section class="pull-left">
+                                <h2><a id="btn3" class="bigButton" href="under-constraction.htm">הכנה</a></h2>
+                                <p class="text-justify">
+                                    מידע ופירוט של השלבים השונים שמצפים לנו כחלק מהמסירה.
+                                </p>
+                            </section>
+                        </li>
+                    </ul>
+                </section>
+                <!--stories' slider-->
+                <aside>
+                    <h3>הצצה לסיפורים</h3>
+                    <div id="slider" class="row">
+                        <button id="pauseBtn" type="button" class="fa fa-pause" title="לחץ לעצירת/המשך תנועת השקופיות"></button>
+                        <div class="slides">
+                            <section class="slide">
+                                <div class="col-xs-8">
+                                    <hgroup>
+                                        <h4>עמית ודילן</h4>
+                                        <h5>"איזה הרגשה של חופש! זה הייתה ההרגשה הכי טובה שהייתה לי מאז הפציעה"</h5>
+                                    </hgroup>
+                                    <p>עמית בר-אל, נלחם ונפצע בקרבות מבית לבית במלחמת לבנון השנייה. איבד את הראייה במלחמה. כיום הבעלים הגאה של דילן הכלב ובמילותיו שלו "בנאדם הכי מאושר בתבל"</p>
+                                    <a href="4.1_חיזוק.htm#stry1" class="pull-left" title="לחץ לקריאת הסיפור של עמית ודילן במלואו">קרא עוד >></a>
+                                </div>
+                                <div class="col-xs-4 picHolder">
+                                    <img class="slidePic" src="images/4_sprite.png" width="236" alt="עמית וכלבו דילן" />
+                                </div>
+                            </section>
+                            <section class="slide">
+                                <div class="col-xs-8">
+                                    <hgroup>
+                                        <h4>חנניה כהן - יו"ר ועד עובדי עיריית קריית שמונה</h4>
+                                        <h5>"חשוב לי לציין שכלב נחייה הוא צורך קיומי לאדם עיוור, כדי שעוד עיוורים יוכלו, לנהל אורח חיים עצמאיים ואף מעבר לכך"</h5>
+                                    </hgroup>
+                                    <p>"עבור אדם עיוור, החלום של חיים עצמאיים והיכולת להתפרנס בכבוד, שייך לרוב, לצערנו, לסוג השני. עיוורים רבים אינם יכולים ליהנות מהחופש הזה, שנראה לנו כה מובן מאליו, ללא הליווי הצמוד של כלב נחייה."</p>
+                                    <a href="4.1_חיזוק.htm#stry3" class="pull-left" title="לחץ לקריאת הסיפור של חנניה במלואו">קרא עוד >></a>
+                                </div>
+                                <div class="col-xs-4 picHolder">
+                                    <img class="slidePic" src="images/4_sprite.png" width="236" alt="חנניה וכלבו זן" />
+                                </div>
+                            </section>
+                            <section class="slide">
+                                <div class="col-xs-8">
+                                    <hgroup>
+                                        <h4>איתם - מעורר השראה, אמיץ ויוצא דופן</h4>
+                                        <h5>איתם הוא פורץ גבולות סדרתי, שלא מוכן לשמוע את הביטוי – זה לא אפשרי!</h5>
+                                    </hgroup>
+                                    <p>
+                                        בגיל – 24, איתם ישראלי מקבל את אחת ההחלטות הנועזות שעיצבו את חייו!
+                                        איתם בוחר לקחת את חייו בידיו ולצעוד קדימה. לראשונה לוקח כלב נחיה. עוזב את החממה הבטוחה והמגוננת בקיבוץ, ויוצא לעיר הגדולה…
+                                        "
+                                    </p>
+                                    <a href="4.1_חיזוק.htm#stry2" class="pull-left" title="לחץ לקריאת הסיפור של איתם במלואו">קרא עוד >></a>
+                                </div>
+                                <div class="col-xs-4 picHolder">
+                                    <img class="slidePic" src="images/4_sprite.png" width="236" alt="איתם וכלבו וולטר" />
+                                </div>
+                            </section>
+                            <section class="slide">
+                                <div class="col-xs-8">
+                                    <hgroup>
+                                        <h4>עמית ודילן</h4>
+                                        <h5>"איזה הרגשה של חופש! זה הייתה ההרגשה הכי טובה שהייתה לי מאז הפציעה"</h5>
+                                    </hgroup>
+                                    <p>עמית בר-אל, נלחם ונפצע בקרבות מבית לבית במלחמת לבנון השנייה. איבד את הראייה במלחמה. כיום הבעלים הגאה של דילן הכלב ובמילותיו שלו "בנאדם הכי מאושר בתבל"</p>
+                                    <a href="4.1_חיזוק.htm#stry1" class="pull-left" title="לחץ לקריאת הסיפור של עמית ודילן במלואו">קרא עוד >></a>
+                                </div>
+                                <div class="col-xs-4 picHolder">
+                                    <img src="images/4_sprite.png" width="236" alt="עמית וכלבו דילן" />
+                                </div>
+                            </section>
+                        </div>
+                        <button id="Rarrow" title="לסיפור הקודם" aria-labelledby="slider - הקודם"></button>
+                        <button id="Larrow" title="לסיפור הבא" aria-labelledby=" slider - הבא"></button>
+                    </div>
+                </aside>
+            </div>
+            <footer id="footer" class="container">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <ul>
+                            <li><a href="8_אודות.htm">אודות</a></li>
+                            <li><a href="9_קשר.htm">צור קשר</a></li>
+                            <li><a href="10_מפה.htm">מפת האתר</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-3 pull-left text-left">
+                        <p>האו To</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
