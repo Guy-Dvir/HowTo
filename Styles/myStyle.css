@@ -5,7 +5,8 @@
 }
 
     body *:focus {
-        outline: 3px solid yellow;
+        /*outline: 3px solid yellow;*/
+        outline:none;
     }
 
 .focusOutline {
